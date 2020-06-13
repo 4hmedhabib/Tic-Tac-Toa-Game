@@ -132,7 +132,6 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .9);
-    display: flex;
     justify-content: center;
     align-items: center;
     color: white;
@@ -152,4 +151,8 @@
     background-color: black;
     color: white;
     border: 1px solid white;
+}
+
+.winning-message.show {
+    display: flex;
 }
